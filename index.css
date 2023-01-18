@@ -1,0 +1,132 @@
+body {
+margin: 0;  
+}
+@font-face { 
+font-family: "Cursed Timer ULiL"; 
+src: url('CursedTimerULiL.ttf'); 
+}
+.container {
+ display: flex;
+justify-content: space-around;
+position: relative;
+width: 575px;
+height: 385px;
+background-color: #1B244A;
+}
+.homescore {
+border: 2px solid black;
+position: absolute;
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+background-color: black;
+}
+.guestscore {
+border: 2px solid black;
+position: absolute;
+width: 155px;
+height: 120px;
+left: 337px;
+top: 125px;
+background-color: black;
+}
+.home {
+position: absolute;
+width: 149px;
+height: 36px;
+left: 94px;
+top: 35px;   
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+color: #EEEEEE;
+}
+.guest {
+position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 35px;    
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+color: #EEEEEE;
+}
+.score {
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+}
+.box {
+background-color: #1B244A;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #9AABD8;
+line-height: 28px;
+text-align: center;
+border: 2px solid #9AABD8;
+position: absolute;
+width: 45px;
+height: 45px;
+}
+.newgamebox {
+background-color: #1B244A;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #9AABD8;
+border: 2px solid #9AABD8;
+position: absolute;
+width: 130px;
+height: 60px;  
+left: 220px;
+top: 310px;
+}
+.box1 {
+left: 82px;
+top: 250px;
+vertical-align: middle;
+line-height: 48px;
+}
+.box2 {
+left: 136px;
+top: 250px;
+vertical-align: middle;
+line-height: 48px;
+}
+.box3 {
+left: 192px;
+top: 250px;
+vertical-align: middle;
+line-height: 48px;
+}
+.box4 {
+left: 337px;
+top: 250px;
+vertical-align: middle;
+line-height: 48px;
+}
+.box5 {
+left: 391px;
+top: 250px;
+vertical-align: middle;
+line-height: 48px;
+}
+.box6 {
+left: 447px;
+top: 250px;
+vertical-align: middle;
+line-height: 48px;
+}
